@@ -1,0 +1,114 @@
+﻿* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  min-height: 100vh;
+  font-family: "Raleway",Arial,sans-serif;
+  font-size: 14px;
+  color: #262626;
+}
+ul {
+  list-style: none;
+}
+img {
+  width: auto;
+  max-width: 100%;
+}
+a {
+  color: #262626;
+  text-decoration: none;
+}
+section .wrapper {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.fresh-life {
+  position: relative;
+  min-height: 100vh;
+  background: #f9f8fb url("../images/bg.jpg")  no-repeat 50% 0;
+}
+.fresh-life .wrapper header {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
+}
+.wrapper header nav {
+  padding: 57px 0;
+  overflow: hidden;
+}
+.wrapper header nav img {
+  float: left;
+}
+.wrapper header nav .nav-menu {
+  float: right;
+  font-size: 0;
+}
+.wrapper header nav .nav-menu a {
+  display: inline-block;
+  font-size: 16px;
+  padding: 16px 0 0 37px;
+}
+.fresh-life .wrapper article {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-weight: 300;
+  padding: 190px 0 405px 0;
+}
+.fresh-life .wrapper article h2{
+  font-weight: 900;
+  font-size: 60px;
+}
+.fresh-life .wrapper article p{
+   padding: 16px 0 30px 0;
+   line-height: 25px;
+   width: 370px;
+   font-size: 17px;
+ }
+.fresh-life .wrapper article button{
+  height: 56px;
+  padding: 0 25px;
+  background-color: #ff6033;
+  font-family: "Raleway",Arial,sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  color: #ffffff;
+  outline: none;
+  border: none;
+  line-height: 56px;
+}
+.about-us {
+  background: #00bcbc;
+}
+.about-us .wrapper article {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+ }
+.about-us .wrapper img {
+  margin: 23px 2px 12px -60px;
+}
+.about-us .wrapper .text-content {
+  padding: 160px 0 220px 0;
+  width: 500px;
+}
+.about-us .wrapper article h2 {
+  text-align: left;
+  font-weight: bold;
+  font-size: 90px;
+  color: #ffffff;
+}
+.about-us .wrapper article p {
+  padding: 8px 0;
+  line-height: 26px;
+  text-align: left;
+  font-weight: 300;
+  font-size: 17px;
+  color: #ffffff;
+}
